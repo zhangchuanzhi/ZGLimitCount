@@ -13,6 +13,7 @@
 		2319F01B1EEF77830092B727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2319F0191EEF77830092B727 /* Main.storyboard */; };
 		2319F01D1EEF77830092B727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2319F01C1EEF77830092B727 /* Assets.xcassets */; };
 		2319F0201EEF77830092B727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2319F01E1EEF77830092B727 /* LaunchScreen.storyboard */; };
+		2319F0291EEF77E10092B727 /* UITextView+ZGLimitCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2319F0281EEF77E10092B727 /* UITextView+ZGLimitCounter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2319F01C1EEF77830092B727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2319F01F1EEF77830092B727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2319F0211EEF77830092B727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2319F0271EEF77E10092B727 /* UITextView+ZGLimitCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZGLimitCounter.h"; sourceTree = "<group>"; };
+		2319F0281EEF77E10092B727 /* UITextView+ZGLimitCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZGLimitCounter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +65,9 @@
 				2319F0141EEF77830092B727 /* AppDelegate.m */,
 				2319F0161EEF77830092B727 /* ViewController.h */,
 				2319F0171EEF77830092B727 /* ViewController.m */,
-				2319F0191EEF77830092B727 /* Main.storyboard */,
-				2319F01C1EEF77830092B727 /* Assets.xcassets */,
-				2319F01E1EEF77830092B727 /* LaunchScreen.storyboard */,
-				2319F0211EEF77830092B727 /* Info.plist */,
 				2319F0101EEF77830092B727 /* Supporting Files */,
+				2319F0271EEF77E10092B727 /* UITextView+ZGLimitCounter.h */,
+				2319F0281EEF77E10092B727 /* UITextView+ZGLimitCounter.m */,
 			);
 			path = ZGLimitCount;
 			sourceTree = "<group>";
@@ -74,6 +75,10 @@
 		2319F0101EEF77830092B727 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2319F0191EEF77830092B727 /* Main.storyboard */,
+				2319F01C1EEF77830092B727 /* Assets.xcassets */,
+				2319F01E1EEF77830092B727 /* LaunchScreen.storyboard */,
+				2319F0211EEF77830092B727 /* Info.plist */,
 				2319F0111EEF77830092B727 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -153,6 +158,7 @@
 				2319F0181EEF77830092B727 /* ViewController.m in Sources */,
 				2319F0151EEF77830092B727 /* AppDelegate.m in Sources */,
 				2319F0121EEF77830092B727 /* main.m in Sources */,
+				2319F0291EEF77E10092B727 /* UITextView+ZGLimitCounter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
